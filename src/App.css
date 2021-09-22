@@ -1,10 +1,30 @@
-.App {
+.ticTacToe {
   text-align: center;
+  background-color: #282c34;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ticTacToe__title {
+  color: #61dafb;
+  text-transform: uppercase;
+  padding: 5% 0px;
+}
+
+.ticTacToe__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.ticTacToe__cell {
+  background-color: white;
+  grid-gap: 10px;
+  border: 3px solid black;
+  padding: 30px;
+  list-style-type: none;
+  padding: 70px;
+  font-size: 30px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
